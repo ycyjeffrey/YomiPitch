@@ -1,0 +1,122 @@
+# Horse Models Community License v2.0
+
+Copyright (c) 2026 2008-horse. All rights reserved.
+
+Free for non-commercial use. Commercial use requires a separate written license from 2008-horse.
+
+## 1. Definitions
+
+1.1 "Licensor" means 2008-horse.
+
+1.2 "Materials" means everything distributed by the Licensor together with this License, including: (a) the model weights and model graphs, in ONNX or any other format (the "Model"); (b) the data files distributed with the Model, such as vocabulary, label, knowledge, lexicon and configuration files; (c) the JavaScript inference software and its source code (the "Software"); and (d) the accompanying documentation.
+
+1.3 "You" means the individual or legal entity exercising rights under this License. If You act for an organisation, "You" includes that organisation.
+
+1.4 "Output" means text or other data produced by running the Model or the Software.
+
+1.5 "Revenue" means any income or other commercial value that a product, service, project or activity generates, or is offered in exchange for, including sales, license fees, paid tiers, subscriptions, in-app purchases, paid services, advertising income, sponsorship and paid placements. Voluntary donations are not Revenue if giving is optional and unlocks no feature, content or service. Ordinary academic research grants and institutional research funding are not Revenue, unless the funding is given in exchange for commercial services, commercial rights, advertising, sponsorship exposure or other commercial consideration.
+
+1.6 "Community Use" means use of the Materials that is solely for one or more of the following purposes and involves no Revenue:
+(a) personal projects;
+(b) education;
+(c) academic research;
+(d) other non-commercial projects.
+A free application, browser extension, plugin or website is Community Use only if it has no Revenue, no advertising, no subscription and no paid service.
+
+1.7 "Commercial Use" means any use of the Materials that is not Community Use. Commercial Use includes, without limitation:
+(a) paid applications and subscriptions;
+(b) advertising-supported products;
+(c) SaaS products and paid APIs, or offering the Model or its Outputs as a service for a fee;
+(d) enterprise tools and any internal use within a company or other commercial organisation, even if nothing is sold;
+(e) commercial hosting of the Model;
+(f) incorporating the Materials into a product, service or software that is sold, licensed or distributed for commercial purposes, including OEM or resale;
+(g) any other use in a product, service or activity that generates Revenue.
+
+## 2. Community License Grant
+
+2.1 Subject to Your compliance with this License, the Licensor grants You a worldwide, non-exclusive, non-transferable, non-sublicensable, royalty-free license to use, run and reproduce the Materials for Community Use only. This license ends only as described in Section 13.
+
+2.2 No ownership of the Materials is transferred to You. All rights not expressly granted in this License are reserved by the Licensor.
+
+## 3. Commercial Use Requires a Separate License
+
+3.1 This License grants no right to any Commercial Use. Commercial Use requires a separate written license agreement signed by the Licensor. The terms of any such agreement, and not this License, govern the rights it grants.
+
+3.2 To request a commercial license, contact support@2008-horse.com or see https://2008-horse.com/licensing/.
+
+3.3 If You are unsure whether a use is Community Use, ask the Licensor before You begin. Until the Licensor confirms in writing that a use is Community Use, treat it as Commercial Use.
+
+## 4. Redistribution
+
+4.1 You may redistribute exact, unmodified copies of the Materials, on their own or as part of a project that is itself Community Use, provided that:
+(a) You charge no fee for the Materials or for the project that contains them;
+(b) You include a complete copy of this License and keep every copyright, license, attribution and third-party notice intact;
+(c) each recipient receives its license to the Materials directly from the Licensor under this License, and You add no further license restrictions on the Materials. The general terms of service of an app store, browser extension store, package registry or hosting platform do not breach this condition, unless they purport to modify or restrict the rights granted by this License; and
+(d) You do not state or imply that the Licensor endorses You or Your project.
+
+4.2 Combining the Software into Your application through a normal build process (bundling, transpiling or minifying) does not by itself count as a modification under Section 5, provided that this License is distributed with Your application and the Model and data files are not altered.
+
+4.3 Any redistribution of the Materials as part of a Commercial Use requires a commercial license.
+
+## 5. Modifications and Derived Models
+
+5.1 You may not modify, convert, quantise, prune, fine-tune, merge or otherwise alter the Model or its data files, or create a model derived from them, except for Your own private Community Use. You may not distribute, publish, host or make available any such altered or derived version.
+
+5.2 You may modify the Software for Your own Community Use. You may not distribute a modified version of the Software, except as described in Section 4.2.
+
+5.3 Any other modification or derived work requires the Licensor's prior written permission.
+
+## 6. Restrictions
+
+You may not, and may not allow anyone else to:
+(a) remove, alter or obscure any copyright, trademark, license, attribution or third-party notice in the Materials;
+(b) reverse engineer, decompile or disassemble the Model or the Software, except to the extent that applicable law expressly permits it despite this restriction;
+(c) except to the extent expressly permitted by Section 5.1 for Your own private Community Use, use the Model, the Software or any Output to train, distil, fine-tune or otherwise improve any machine-learning model that performs the same task as, or a task substantially similar to, the task of the Horse Models model from which those Materials or Outputs come;
+(d) sublicense, sell, rent, lease or otherwise transfer any rights in the Materials;
+(e) misrepresent the origin or authorship of the Materials, or present them as Your own work; or
+(f) use the Materials in violation of any applicable law.
+
+## 7. Outputs
+
+The Licensor claims no ownership of Outputs that You generate through Community Use. You are responsible for Your use of Outputs. Section 6(c) applies to Outputs.
+
+## 8. Attribution
+
+If You use the Materials in any publicly available project, application, website or publication, You must display the following attribution in a place where users can reasonably see it, such as an about screen, credits page or documentation:
+
+    Powered by Horse Models (https://2008-horse.com/licensing/)
+
+## 9. Third-Party Components
+
+Some components distributed with the Materials may be subject to their own license terms. Where a THIRD-PARTY-NOTICES.md file is included, those components are governed by the terms identified in that file, and nothing in this License limits the rights granted by those terms. You must keep that file with any copy You redistribute.
+
+## 10. Trademarks
+
+This License grants no right to use the names, trademarks, service marks or logos of the Licensor, including "Horse Models" and "2008-horse", except as required by Section 8 and for reasonable, customary use in describing the origin of the Materials.
+
+## 11. Disclaimer of Warranty
+
+THE MATERIALS AND ALL OUTPUTS ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY, TITLE OR NON-INFRINGEMENT. OUTPUTS MAY BE INCORRECT. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING WHETHER THE MATERIALS AND THEIR OUTPUTS ARE SUITABLE FOR YOUR USE.
+
+## 12. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH THIS LICENSE, THE MATERIALS OR ANY OUTPUT, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTHING IN THIS LICENSE EXCLUDES OR LIMITS ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+## 13. Termination
+
+13.1 Your rights under this License terminate automatically, without notice, if You breach any of its terms.
+
+13.2 On termination You must stop all use of the Materials and delete all copies in Your possession or control, including any altered versions made under Section 5.
+
+13.3 Sections 6, 7, 11, 12, 13 and 14 survive termination. Termination does not affect the rights of anyone who received the Materials from You in compliance with this License, as long as they comply with it.
+
+13.4 The Licensor may publish later versions of this License. A later version applies to Materials that the Licensor distributes under it; it does not change the terms of copies You already received under this version.
+
+## 14. Entire Agreement and Contact
+
+14.1 This License is the entire agreement between You and the Licensor regarding Community Use of the Materials. If any provision is held unenforceable, it will be enforced to the maximum extent permissible and the remaining provisions remain in effect. A failure to enforce a provision is not a waiver.
+
+14.2 Questions about this License, and requests for a commercial license or for written permission under this License, go to:
+
+    support@2008-horse.com
+    https://2008-horse.com/licensing/

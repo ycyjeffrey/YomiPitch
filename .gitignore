@@ -1,0 +1,14 @@
+# macOS / OS metadata
+.DS_Store
+Thumbs.db
+
+# Node / Editor artifacts
+node_modules/
+npm-debug.log*
+*.log
+.vscode/
+.idea/
+
+# Environment / local secrets
+.env
+.env.*

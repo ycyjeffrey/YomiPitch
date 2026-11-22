@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "YomiPitch — Kanji Reading & Intonation",
+  "short_name": "YomiPitch",
+  "version": "2.1.0",
+  "description": "Context-aware Japanese Kanji furigana & pitch accent powered by a continual-learning ONNX neural AI model.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "YomiPitch — Kanji Reading & Intonation",
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage",
+    "offscreen"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

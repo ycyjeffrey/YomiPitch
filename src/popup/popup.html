@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YomiPitch — Kanji Reading &amp; Intonation</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="brand">
+          <img src="../../icons/icon32.png" alt="" width="24" height="24" class="brand-icon" />
+          <div>
+            <h1 class="brand-title">YomiPitch <span class="version-badge">v2.1</span></h1>
+            <p class="brand-subtitle">Neural AI Reading &amp; Continual Learning</p>
+          </div>
+        </div>
+        <button
+          id="learned-toggle-btn"
+          type="button"
+          class="learned-toggle-btn"
+          aria-expanded="false"
+          hidden
+        >
+          Learned (0)
+        </button>
+      </header>
+
+      <section id="learned-panel" class="learned-panel" hidden>
+        <div class="learned-panel-header">
+          <span class="learned-panel-title">Learned Readings</span>
+          <button id="clear-all-learned-btn" type="button" class="learned-reset-btn">
+            Reset All
+          </button>
+        </div>
+        <div id="learned-list" class="learned-list"></div>
+      </section>
+
+      <form id="lookup-form" class="search-bar" autocomplete="off">
+        <div class="input-wrap">
+          <input
+            id="kanji-input"
+            type="text"
+            maxlength="120"
+            placeholder="Type Kanji or phrase (１６年前, 市場, 年, 振った)…"
+            aria-label="Japanese Kanji word or phrase"
+            autofocus
+          />
+          <button
+            id="clear-btn"
+            type="button"
+            class="clear-btn"
+            aria-label="Clear input"
+            hidden
+          >
+            ×
+          </button>
+        </div>
+        <button id="read-btn" type="submit" class="read-btn">Read</button>
+      </form>
+
+      <main id="result-area" class="result-area" aria-live="polite">
+        <div id="samples-view" class="samples-view">
+          <p class="samples-hint">
+            Highlight Kanji in a sentence on any page for context AI, or try an example:
+          </p>
+          <div class="sample-chips" id="sample-chips">
+            <button type="button" class="sample-chip" data-word="１６年前">１６年前</button>
+            <button type="button" class="sample-chip" data-word="月王子">月王子</button>
+            <button type="button" class="sample-chip" data-word="市場">市場</button>
+            <button type="button" class="sample-chip" data-word="年">年</button>
+            <button type="button" class="sample-chip" data-word="振った">振った</button>
+            <button type="button" class="sample-chip" data-word="怪物の話">怪物の話</button>
+          </div>
+        </div>
+        <div id="result-container" hidden></div>
+      </main>
+
+      <footer class="footer">
+        <label class="toggle-row" for="floating-pill-toggle">
+          <span class="toggle-label">Show floating button when highlighting Kanji</span>
+          <span class="switch">
+            <input id="floating-pill-toggle" type="checkbox" checked />
+            <span class="slider"></span>
+          </span>
+        </label>
+        <div class="footer-attribution">
+          <a
+            class="attribution-link"
+            href="https://2008-horse.com/licensing/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Powered by Horse Models</a>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

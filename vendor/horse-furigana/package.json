@@ -1,0 +1,50 @@
+{
+  "name": "@2008-horse/horse-furigana",
+  "version": "1.1.0",
+  "description": "Horse Furigana: adds furigana to Japanese text, choosing a reading for each kanji. Offline ONNX model with a JavaScript SDK.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./models/*": "./models/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "models/",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md",
+    "SHA256SUMS",
+    "SHA256SUMS.minisig"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "onnxruntime-web": ">=1.19.2 <2"
+  },
+  "homepage": "https://2008-horse.com/",
+  "bugs": {
+    "url": "https://2008-horse.com/support/"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "2008-horse",
+  "keywords": [
+    "japanese",
+    "furigana",
+    "kanji",
+    "reading",
+    "onnx",
+    "offline"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": false
+  }
+}
